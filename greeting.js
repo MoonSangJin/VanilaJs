@@ -32,7 +32,6 @@ function loadName(){
     if(currentUser === null){
         askForName();
     }else{
-        console.log("find");
         paintGreeting(currentUser);
     }
 }
