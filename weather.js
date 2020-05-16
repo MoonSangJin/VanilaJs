@@ -9,7 +9,7 @@ function getWeather(lat, lng){
     }).then(function(json){
         const temperature = json.main.temp;
         const place = json.name;
-        weather.innerText = `${temperature} @ ${place}`;
+        weather.innerText = `온도 : ${temperature} 장소 : ${place}`;
     });
     
 }
